@@ -11,7 +11,6 @@ export const smallProjectData = [
   id: nanoid(),
   category: 'reactJs',
   img: sImg_1,
-  projectNumber: 'first project',
 
   techUsed: 'reactJs',
 
@@ -24,15 +23,13 @@ export const smallProjectData = [
   projectName: 'Birthday buddy'
 
   },
-  
+
   {
     id: nanoid(),
 
     category: 'vanilla-Js',
 
     img: sImg_2,
-
-    projectNumber: 'second project',
 
     techUsed: 'HTML CSS JS',
 
@@ -50,7 +47,6 @@ export const smallProjectData = [
     id: nanoid(),
     category: 'HTML&&CSS',
     img: sImg_2,
-    projectNumber: 'third project',
     techUsed: 'HTML and CSS ccbxcbx',
     desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
     url: '',
@@ -63,7 +59,6 @@ export const smallProjectData = [
       id: nanoid(),
       category: 'react-redux',
       img: sImg_2,
-      projectNumber: 'first project',
       techUsed: 'HTML and CSS dfdff',
       desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
       url: '',
@@ -76,7 +71,6 @@ export const smallProjectData = [
       id: nanoid(),
       category: 'react-redux',
       img: sImg_2,
-      projectNumber: 'first project',
       techUsed: 'HTML and CSS dfdff',
       desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
       url: '',
