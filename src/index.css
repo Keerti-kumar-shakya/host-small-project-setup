@@ -1,0 +1,277 @@
+/*********************Global css**************************/
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  /* primary/main color */
+  --clr-primary-5: hsl(205, 78%, 60%);
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-black: #222;
+
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.75rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/*********************navbar or heading section**************************/
+
+.navbar-section{
+
+  background-color: #FCF6F5 ;
+}
+
+.navbar-container{
+
+  display: grid;
+  grid-template-columns:1.5fr 2fr;
+
+  place-items: center;
+  padding: 30px;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-heading{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 60px;
+  color: var(--clr-grey-2);
+}
+
+.image-navbar{
+ 
+ height: 300px;
+  object-fit: contain;
+}
+
+/*********************** Projects ****************************/
+
+.section-projects{
+  background-color: #FCF6F5;
+}
+
+.projects-container{
+  padding: 32px 0px;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 400px 400px 400px;
+  gap: 20px;
+}
+
+/*********************** ProjectCards ****************************/
+
+
+.big-project-card{
+  background-color: white;
+  box-shadow:  0 0 10px rgb(175, 172, 172);
+ border-radius:0.5rem;
+ transition: 0.55s;
+}
+
+.big-project-card:hover{
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.project-image{
+  height:256px;
+  width:100%;
+  object-fit: contain;
+  object-position:center;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  box-shadow: 0 0 2px rgb(148, 147, 147);
+}
+
+.project-desc-container{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+ letter-spacing: 0.5px;
+  line-height: 25px;
+}
+
+.project-number{
+  font-size: 21px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+.project-name{
+ text-transform: capitalize;
+}
+
+.technology-used{
+  font-size: 16px;
+}
+
+span{
+  font-size:19px;
+  font-weight: 500;
+  color:var(--clr-primary-1);
+  padding-right: 10px;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+
+.project-links-host-container{
+  display: flex;
+  column-gap: 20px;
+}
+
+.host-website, .github-code-base{
+  margin-top: 10px;
+  color: #64748b;
+  font-size: 32px;
+}
+
+.info-btn{
+  border: none;
+  background-color: transparent;
+  text-transform: capitalize;
+  color: lightseagreen;
+  font-size: 16px;
+}
+
+/*********************** ProjectBtn Category ****************************/
+
+.project-btn-category-section {
+ 
+  background-color: #FCF6F5  ;
+}
+
+.project-btn-container{
+  padding: 30px;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+ align-items: center;
+ justify-content: center;
+}
+
+.btn{
+  padding: 2px 5px;
+  font-size: 20px;
+  text-transform: capitalize;
+  border-radius: 0.2rem;
+  background-color:lightblue;
+  font-weight:500;
+  letter-spacing: 3px;
+  font-family: "Alumni Sans", sans-serif;
+  transition: 0.45s;
+}
+
+.btn:hover{
+  color: white;
+  background-color: black;
+}
+
+.active-btn{
+  color: white;
+  background-color: black;
+}
+
+hr{
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+
+/*********************** media query ****************************/
+
+@media (max-width: 1024px) {
+  .projects-container{
+    grid-template-columns: 400px 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-container{
+    grid-template-columns:400px;
+  }
+
+  .navbar-heading{
+    letter-spacing: 2px;
+    font-size: 40px;
+
+  }
+}
+
+@media (max-width: 425px) {
+  .projects-container{
+    grid-template-columns:300px;
+  }
+
+  .navbar-heading{
+    letter-spacing: 0px;
+    font-size: 16px;  
+  }
+
+  .image-navbar{
+ 
+    height: 200px;
+     object-fit: contain;
+   }
+
+   .project-btn-container{
+    gap: 20px;
+  }
+
+  .navbar-container{
+  column-gap: 8px;
+  }
+}
