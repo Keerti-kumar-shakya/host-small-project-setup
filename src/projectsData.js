@@ -1,6 +1,7 @@
 // big project images
 import sImg_1 from './projects-images/01-birthday-buddy.png'
-import sImg_2 from './projects-images/YouTube-Clone-img-1.png';
+import sImg_2 from './projects-images/02-rock-paper-scissor.png';
+//import sImg_3 from './projects-images'
 
 import { nanoid } from 'nanoid';
 // small project images
@@ -23,22 +24,31 @@ export const smallProjectData = [
   projectName: 'Birthday buddy'
 
   },
+  
   {
     id: nanoid(),
-    category: 'HTML&&CSS',
+
+    category: 'vanilla-Js',
+
     img: sImg_2,
+
     projectNumber: 'second project',
-    techUsed: 'HTML and CSS',
-    desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
-    url: '',
-    github: '',
-    projectName: 'social media youTube clone'
+
+    techUsed: 'HTML CSS JS',
+
+    desc: 'I have made a Rock Paper Scissors Game web-based application using HTML, CSS, and JavaScript. This project focuses on implementing the classic game where players compete against the computer by selecting one of the three options: rock, paper, or scissors. The application showcases fundamental web development concepts, including closures and asynchronous functions in JavaScript.',
+
+    url: 'https://01-small-js-project.netlify.app/',
+
+    github: 'https://github.com/Keerti-kumar-shakya/small-javascript-projects/tree/main/01-rock-paper-scissor',
+
+    projectName: 'Rock Paper Scissors'
   
   },
 
   {
     id: nanoid(),
-    category: 'vanilla-Js',
+    category: 'HTML&&CSS',
     img: sImg_2,
     projectNumber: 'third project',
     techUsed: 'HTML and CSS ccbxcbx',
