@@ -1,32 +1,33 @@
 // big project images
-import bImg_1 from './projects-images/YouTube-Clone-img-1.png';
+import sImg_1 from './projects-images/01-birthday-buddy.png'
+import sImg_2 from './projects-images/YouTube-Clone-img-1.png';
+
 import { nanoid } from 'nanoid';
 // small project images
 
 export const smallProjectData = [
   {
   id: nanoid(),
-  category: 'HTML&&CSS',
-  img: bImg_1,
-
+  category: 'reactJs',
+  img: sImg_1,
   projectNumber: 'first project',
 
-  techUsed: 'HTML and CSS',
+  techUsed: 'reactJs',
 
-  desc: 'The YouTube Clone has been developed utilizing HTML5 and CSS3. The CSS-HTML methods applied in its construction include positioning, flexbox, grid layout, image manipulation, pseudo-selectors, semantic tags, tooltip techniques, media queries, and link integration.',
+  desc: `Birthday Buddy is a ReactJS-based web application designed to help users keep track of birthdays. The application provides an intuitive and user-friendly interface for managing a list of friends' and family members' birthdays. By utilizing ReactJS functional components and hooks, such as useState, the project ensures a modern, efficient, and maintainable codebase.`,
 
-  url: 'https://keerti-kumar-shakya.github.io/YouTube-Clone/',
+  url: 'https://01-small-project-react-birthday-buddy.netlify.app/',
 
-  github: 'https://github.com/Keerti-kumar-shakya/YouTube-Clone',
+  github: 'https://github.com/Keerti-kumar-shakya/small-react-projects/tree/main/01%20-%20birthday-buddy',
 
-  projectName: 'social media youTube clone'
+  projectName: 'Birthday buddy'
 
   },
   {
     id: nanoid(),
-    category: 'vanilla-Js',
-    img: bImg_1,
-    projectNumber: 'first project',
+    category: 'HTML&&CSS',
+    img: sImg_2,
+    projectNumber: 'second project',
     techUsed: 'HTML and CSS',
     desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
     url: '',
@@ -37,9 +38,9 @@ export const smallProjectData = [
 
   {
     id: nanoid(),
-    category: 'reactJs',
-    img: bImg_1,
-    projectNumber: 'first project',
+    category: 'vanilla-Js',
+    img: sImg_2,
+    projectNumber: 'third project',
     techUsed: 'HTML and CSS ccbxcbx',
     desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
     url: '',
@@ -51,7 +52,7 @@ export const smallProjectData = [
     {
       id: nanoid(),
       category: 'react-redux',
-      img: bImg_1,
+      img: sImg_2,
       projectNumber: 'first project',
       techUsed: 'HTML and CSS dfdff',
       desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
@@ -64,7 +65,7 @@ export const smallProjectData = [
     {
       id: nanoid(),
       category: 'react-redux',
-      img: bImg_1,
+      img: sImg_2,
       projectNumber: 'first project',
       techUsed: 'HTML and CSS dfdff',
       desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
