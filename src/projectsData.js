@@ -3,7 +3,7 @@ import bImg_1 from './projects-images/YouTube-Clone-img-1.png';
 import { nanoid } from 'nanoid';
 // small project images
 
-export const bigProjectData = [
+export const smallProjectData = [
   {
   id: nanoid(),
   category: 'HTML&&CSS',
