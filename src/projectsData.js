@@ -1,6 +1,7 @@
 // big project images
-import sImg_1 from './projects-images/01-birthday-buddy.png'
+import sImg_1 from './projects-images/01-birthday-buddy.png';
 import sImg_2 from './projects-images/02-rock-paper-scissor.png';
+import sImg_3 from './projects-images/03-todo-list-app.png';
 //import sImg_3 from './projects-images'
 
 import { nanoid } from 'nanoid';
@@ -45,19 +46,20 @@ export const smallProjectData = [
 
   {
     id: nanoid(),
-    category: 'HTML&&CSS',
-    img: sImg_2,
-    techUsed: 'HTML and CSS ccbxcbx',
-    desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
-    url: '',
-    github: '',
-    projectName: 'social media youTube clone'
+    category: 'vanilla-Js',
+    img: sImg_3,
+    techUsed: 'HTML CSS JS',
+    desc: 'I am pleased to present a to-do list application that I have developed, utilizing HTML, CSS, and JavaScript. This application includes essential functionalities such as adding new tasks, deleting existing tasks, and a search feature to easily find specific tasks. The use of HTML and CSS ensures a clean and user-friendly interface, while JavaScript provides dynamic interactivity and responsiveness. This project demonstrates my proficiency in front-end web development and my ability to create practical and functional web application',
+
+    url: 'https://01-small-javascript-todo-list-project.netlify.app/',
+    github: 'https://github.com/Keerti-kumar-shakya/small-javascript-projects/tree/main/02-%20todo-list',
+    projectName: 'todo list app'
   
   
     },
     {
       id: nanoid(),
-      category: 'react-redux',
+      category: 'HTML&&CSS',
       img: sImg_2,
       techUsed: 'HTML and CSS dfdff',
       desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
