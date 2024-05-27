@@ -34,7 +34,7 @@ export const smallProjectData = [
 
     techUsed: 'HTML CSS JS',
 
-    desc: 'I have made a Rock Paper Scissors Game web-based application using HTML, CSS, and JavaScript. This project focuses on implementing the classic game where players compete against the computer by selecting one of the three options: rock, paper, or scissors. The application showcases fundamental web development concepts, including closures and asynchronous functions in JavaScript.',
+    desc: 'I have made a Rock Paper Scissors Game web-based application using HTML, CSS, and JavaScript. This project focuses on implementing the classic game where players compete against the computer by selecting one of the three options: rock, paper, or scissors. The application showcases fundamental web development concepts, including closures and asynchronous functions in JavaScript. I have effectively utilized the local storage feature to enhance user experience and performance.',
 
     url: 'https://01-small-js-project.netlify.app/',
 
@@ -49,7 +49,7 @@ export const smallProjectData = [
     category: 'vanilla-Js',
     img: sImg_3,
     techUsed: 'HTML CSS JS',
-    desc: 'I am pleased to present a to-do list application that I have developed, utilizing HTML, CSS, and JavaScript. This application includes essential functionalities such as adding new tasks, deleting existing tasks, and a search feature to easily find specific tasks. The use of HTML and CSS ensures a clean and user-friendly interface, while JavaScript provides dynamic interactivity and responsiveness. This project demonstrates my proficiency in front-end web development and my ability to create practical and functional web application',
+    desc: 'I am pleased to present a to-do list application that I have developed, utilizing HTML, CSS, and JavaScript. This application includes essential functionalities such as adding new tasks, deleting existing tasks, and a search feature to easily find specific tasks. The use of HTML and CSS ensures a clean and user-friendly interface, while JavaScript provides dynamic interactivity and responsiveness. This project demonstrates my proficiency in front-end web development and my ability to create practical and functional web application. I have effectively utilized the local storage feature to enhance user experience and performance.',
 
     url: 'https://01-small-javascript-todo-list-project.netlify.app/',
     github: 'https://github.com/Keerti-kumar-shakya/small-javascript-projects/tree/main/02-%20todo-list',
