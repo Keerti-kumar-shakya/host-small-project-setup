@@ -2,12 +2,14 @@
 import sImg_1 from './projects-images/01-birthday-buddy.png';
 import sImg_2 from './projects-images/02-rock-paper-scissor.png';
 import sImg_3 from './projects-images/03-todo-list-app.png';
+import sImg_4 from './projects-images/04-react-tour-app.png';
 //import sImg_3 from './projects-images'
 
 import { nanoid } from 'nanoid';
 // small project images
 
 export const smallProjectData = [
+  // 1-project
   {
   id: nanoid(),
   category: 'reactJs',
@@ -24,7 +26,7 @@ export const smallProjectData = [
   projectName: 'Birthday buddy'
 
   },
-
+  // 2-project
   {
     id: nanoid(),
 
@@ -43,7 +45,7 @@ export const smallProjectData = [
     projectName: 'Rock Paper Scissors'
   
   },
-
+  // 3-project
   {
     id: nanoid(),
     category: 'vanilla-Js',
@@ -57,6 +59,23 @@ export const smallProjectData = [
   
   
     },
+
+      // 4-project
+    {
+      id: nanoid(),
+      category: 'reactJs',
+      img: sImg_4,
+      techUsed: 'reactJs',
+      desc: `Welcome to My Tours App, a comprehensive platform designed to help users explore tours to various exciting destinations across different countries. This app leverages modern web technologies to deliver a seamless and engaging user experience. Built using React.js, it makes extensive use of hooks such as 'useState' and 'useEffect' to manage state and side effects efficiently.`,
+
+      url: 'https://02-small-reactjs-tour-app-project.netlify.app/',
+
+      github: 'https://github.com/Keerti-kumar-shakya/small-react-projects/tree/main/02%20-%20tours-app',
+      
+      projectName: 'tours app'
+    
+    }
+    ,
     {
       id: nanoid(),
       category: 'HTML&&CSS',
