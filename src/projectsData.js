@@ -89,7 +89,7 @@ export const smallProjectData = [
 
     github: 'https://github.com/Keerti-kumar-shakya/small-react-projects/tree/main/03%20-%20reviews%20app',
     
-    projectName: 'tours app'
+    projectName: 'reviews app'
   
   }
 
