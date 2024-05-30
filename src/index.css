@@ -172,6 +172,11 @@ span{
   margin-top: 10px;
   color: #64748b;
   font-size: 32px;
+  transition: 0.25s;
+}
+
+.host-website:hover, .github-code-base:hover{
+color: rgb(54, 54, 54);
 }
 
 .info-btn{
