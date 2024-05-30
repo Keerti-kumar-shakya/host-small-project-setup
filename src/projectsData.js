@@ -3,6 +3,7 @@ import sImg_1 from './projects-images/01-birthday-buddy.png';
 import sImg_2 from './projects-images/02-rock-paper-scissor.png';
 import sImg_3 from './projects-images/03-todo-list-app.png';
 import sImg_4 from './projects-images/04-react-tour-app.png';
+import sImg_5 from './projects-images/05-reviews-app.png';
 //import sImg_3 from './projects-images'
 
 import { nanoid } from 'nanoid';
@@ -74,17 +75,34 @@ export const smallProjectData = [
       
       projectName: 'tours app'
     
-    }
+    },
+
+    // 5-project
+  {
+    id: nanoid(),
+    category: 'reactJs',
+    img: sImg_5,
+    techUsed: 'reactJs',
+    desc: 'I have created the Reviews App, a cutting-edge platform designed to gather and showcase authentic reviews from individuals about their diverse experiences. Developed using the advanced ReactJS technology, this app employs essential React hooks to ensure a dynamic, efficient, and user-friendly interface.',
+
+    url: 'https://05-react-small-reviews-app-prooject.netlify.app/',
+
+    github: 'https://github.com/Keerti-kumar-shakya/small-react-projects/tree/main/03%20-%20reviews%20app',
+    
+    projectName: 'tours app'
+  
+  }
+
     ,
     {
       id: nanoid(),
       category: 'HTML&&CSS',
       img: sImg_2,
-      techUsed: 'HTML and CSS dfdff',
+      techUsed: 'HTML&&CSS',
       desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
       url: '',
       github: '',
-      projectName: 'social media youTube clone'
+      projectName: ''
     
     },
 
@@ -92,11 +110,11 @@ export const smallProjectData = [
       id: nanoid(),
       category: 'react-redux',
       img: sImg_2,
-      techUsed: 'HTML and CSS dfdff',
+      techUsed: 'react-redux',
       desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
       url: '',
       github: '',
-      projectName: 'social media youTube clone'
+      projectName: ''
     
     }
 
