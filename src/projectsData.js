@@ -5,6 +5,7 @@ import sImg_3 from './projects-images/03-todo-list-app.png';
 import sImg_4 from './projects-images/04-react-tour-app.png';
 import sImg_5 from './projects-images/05-reviews-app.png';
 import sImg_6 from './projects-images/06-question-img.png';
+import sImg_7 from './projects-images/07-calculator-app.png';
 //import sImg_3 from './projects-images'
 
 import { nanoid } from 'nanoid';
@@ -93,6 +94,7 @@ export const smallProjectData = [
     projectName: 'reviews app'
   
   },
+      // 6-project
   {
     id: nanoid(),
     category: 'reactJs',
@@ -106,6 +108,19 @@ export const smallProjectData = [
     projectName: 'Questions App'
   
   },
+    // 7-project
+    {
+      id: nanoid(),
+      category: 'vanilla-Js',
+      img: sImg_7,
+      techUsed: 'HTML CSS JS',
+      desc: `I developed a sophisticated calculator application using Vanilla JavaScript. This project emphasizes minimalism and efficiency by leveraging native web technologies without relying on external libraries or frameworks. The calculator's functionality includes basic arithmetic operations and memory features. Additionally, it utilizes localStorage for persistent data management, allowing users to store and retrieve their calculation history seamlessly across sessions.`,
+      url: 'https://03-javascript-calculator-app-project.netlify.app/',
+      github: 'https://github.com/Keerti-kumar-shakya/small-javascript-projects/tree/main/03%20-%20calculator%20app',
+      projectName: 'calculator app'
+    
+    },
+
     {
       id: nanoid(),
       category: 'HTML&&CSS',
