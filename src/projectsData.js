@@ -4,6 +4,7 @@ import sImg_2 from './projects-images/02-rock-paper-scissor.png';
 import sImg_3 from './projects-images/03-todo-list-app.png';
 import sImg_4 from './projects-images/04-react-tour-app.png';
 import sImg_5 from './projects-images/05-reviews-app.png';
+import sImg_6 from './projects-images/06-question-img.png';
 //import sImg_3 from './projects-images'
 
 import { nanoid } from 'nanoid';
@@ -91,9 +92,20 @@ export const smallProjectData = [
     
     projectName: 'reviews app'
   
-  }
+  },
+  {
+    id: nanoid(),
+    category: 'reactJs',
+    img: sImg_6,
+    techUsed: 'reactJs',
+    desc: 'The Questions App is a web application built using React.js, designed to provide users with a simple and intuitive platform to manage and interact with questions. This project leverages fundamental concepts of React.js, making it a perfect showcase of core React principles such as component-based architecture, state management, and lifecycle methods.',
+    url: 'https://react-small-question-app-project.netlify.app/',
 
-    ,
+    github: 'https://github.com/Keerti-kumar-shakya/small-react-projects/tree/main/04%20-%20Questions%20app',
+
+    projectName: 'Questions App'
+  
+  },
     {
       id: nanoid(),
       category: 'HTML&&CSS',
