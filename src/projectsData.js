@@ -6,7 +6,7 @@ import sImg_4 from './projects-images/04-react-tour-app.png';
 import sImg_5 from './projects-images/05-reviews-app.png';
 import sImg_6 from './projects-images/06-question-img.png';
 import sImg_7 from './projects-images/07-calculator-app.png';
-import sImg_8 from './projects-images/0-menu-app.png';
+import sImg_8 from './projects-images/08-menu-app.png';
 //import sImg_3 from './projects-images'
 
 import { nanoid } from 'nanoid';
