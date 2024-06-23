@@ -7,6 +7,7 @@ import sImg_5 from './projects-images/05-reviews-app.png';
 import sImg_6 from './projects-images/06-question-img.png';
 import sImg_7 from './projects-images/07-calculator-app.png';
 import sImg_8 from './projects-images/08-menu-app.png';
+import sImg_9 from './projects-images/09-responsive-home-page.png';
 //import sImg_3 from './projects-images'
 
 import { nanoid } from 'nanoid';
@@ -136,16 +137,19 @@ export const smallProjectData = [
 
       projectName: 'menu app'
     },
-
+      // 9-project
     {
       id: nanoid(),
       category: 'HTML&&CSS',
-      img: sImg_2,
-      techUsed: 'HTML&&CSS',
-      desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
-      url: '',
-      github: '',
-      projectName: ''
+      img: sImg_9,
+      techUsed: 'HTML and CSS',
+      desc: 'The Responsive Home Page project is a meticulously designed web application aimed at providing users with an engaging, visually appealing, and adaptable browsing experience. This project highlights the implementation of modern web design principles to create a home page that maintains functionality and aesthetic appeal across a wide range of devices and screen sizes.',
+
+      url: 'https://01-responsive-home-page-html-css.netlify.app/',
+
+      github: 'https://github.com/Keerti-kumar-shakya/small-html-css-projects/tree/main/01-responsive%20home%20page',
+      
+      projectName: 'responsive home page'
     
     },
 
