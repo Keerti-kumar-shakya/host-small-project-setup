@@ -6,6 +6,7 @@ import sImg_4 from './projects-images/04-react-tour-app.png';
 import sImg_5 from './projects-images/05-reviews-app.png';
 import sImg_6 from './projects-images/06-question-img.png';
 import sImg_7 from './projects-images/07-calculator-app.png';
+import sImg_8 from './projects-images/0-menu-app.png';
 //import sImg_3 from './projects-images'
 
 import { nanoid } from 'nanoid';
@@ -125,7 +126,7 @@ export const smallProjectData = [
      {
       id: nanoid(),
       category: 'vanilla-Js',
-      img: sImg_7,
+      img: sImg_8,
       techUsed: 'HTML CSS JS',
       desc: `The Interactive Menu Application is a dynamic web application designed to enhance user engagement and streamline the menu browsing experience for restaurants, cafes, and other food service establishments. Leveraging modern web technologies, this project provides an intuitive, visually appealing, and responsive interface for users to explore various menu offerings seamlessly.`,
 
