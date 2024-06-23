@@ -121,6 +121,21 @@ export const smallProjectData = [
     
     },
 
+     // 8-project
+     {
+      id: nanoid(),
+      category: 'vanilla-Js',
+      img: sImg_7,
+      techUsed: 'HTML CSS JS',
+      desc: `The Interactive Menu Application is a dynamic web application designed to enhance user engagement and streamline the menu browsing experience for restaurants, cafes, and other food service establishments. Leveraging modern web technologies, this project provides an intuitive, visually appealing, and responsive interface for users to explore various menu offerings seamlessly.`,
+
+      url: 'https://04-menu-app-project-javascript.netlify.app/',
+
+      github: 'https://github.com/Keerti-kumar-shakya/small-javascript-projects/tree/main/04%20-%20Menu%20app',
+
+      projectName: 'menu app'
+    },
+
     {
       id: nanoid(),
       category: 'HTML&&CSS',
