@@ -8,6 +8,7 @@ import sImg_6 from './projects-images/06-question-img.png';
 import sImg_7 from './projects-images/07-calculator-app.png';
 import sImg_8 from './projects-images/08-menu-app.png';
 import sImg_9 from './projects-images/09-responsive-home-page.png';
+import sImg_10 from './projects-images/10-unsplash-images-app.png';
 //import sImg_3 from './projects-images'
 
 import { nanoid } from 'nanoid';
@@ -152,6 +153,21 @@ export const smallProjectData = [
       projectName: 'responsive home page'
     
     },
+
+    // 10-project
+
+    {
+      id: nanoid(),
+      category: 'react-query',
+      img: sImg_2,
+      techUsed: 'reactJs with react-query',
+      desc: 'The Unsplash Images App is a sophisticated web application designed to provide users with seamless access to a vast library of high-quality images from Unsplash. This project leverages the power of React JS and React Query to deliver a fast, responsive, and user-friendly interface for browsing, searching, and viewing images.',
+      url: 'https://react-query-05-unsplash-images-app.netlify.app/',
+      github: 'https://github.com/Keerti-kumar-shakya/small-react-projects/tree/main/05%20-%20Unsplash%20Images%20app',
+      projectName: 'unsplash images app'
+    
+    },
+
 
     {
       id: nanoid(),
