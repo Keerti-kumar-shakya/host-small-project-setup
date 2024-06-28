@@ -159,7 +159,7 @@ export const smallProjectData = [
     {
       id: nanoid(),
       category: 'react-query',
-      img: sImg_2,
+      img: sImg_10,
       techUsed: 'reactJs with react-query',
       desc: 'The Unsplash Images App is a sophisticated web application designed to provide users with seamless access to a vast library of high-quality images from Unsplash. This project leverages the power of React JS and React Query to deliver a fast, responsive, and user-friendly interface for browsing, searching, and viewing images.',
       url: 'https://react-query-05-unsplash-images-app.netlify.app/',
