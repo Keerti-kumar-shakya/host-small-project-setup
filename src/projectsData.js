@@ -169,18 +169,6 @@ export const smallProjectData = [
     },
 
 
-    {
-      id: nanoid(),
-      category: 'react-redux',
-      img: sImg_2,
-      techUsed: 'react-redux',
-      desc: 'Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Asperiores Aperiam Porro Impedit Tenetur Quo Hic Omnis Doloribus Dolores Enim Deleniti.',
-      url: '',
-      github: '',
-      projectName: ''
-    
-    }
-
 ]
 
 
