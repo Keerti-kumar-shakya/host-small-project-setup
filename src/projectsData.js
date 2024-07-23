@@ -9,6 +9,7 @@ import sImg_7 from './projects-images/07-calculator-app.png';
 import sImg_8 from './projects-images/08-menu-app.png';
 import sImg_9 from './projects-images/09-responsive-home-page.png';
 import sImg_10 from './projects-images/10-unsplash-images-app.png';
+import sImg_11 from './projects-images/11-filter-app.png';
 //import sImg_3 from './projects-images'
 
 import { nanoid } from 'nanoid';
@@ -168,7 +169,22 @@ export const smallProjectData = [
     
     },
 
+// 11-project
+{
+  id: nanoid(),
+  category: 'vanilla-Js',
+  img: sImg_11,
+  techUsed: 'HTML CSS & JavaScript',
+  desc: `In developing the Filter App, I applied my extensive knowledge of JavaScript, focusing on essential concepts such as map(), includes(), and managing data IDs. This project allowed me to enhance my coding proficiency and gain a deeper understanding of front-end development.
 
+  The Filter App demonstrates my ability to efficiently manipulate and filter data, offering a seamless user experience through interactive and dynamic elements. By leveraging these JavaScript functionalities, I was able to create a robust application that showcases my skills in handling and processing data effectively.
+  
+  This project not only highlights my technical capabilities but also reflects my commitment to mastering front-end development principles and delivering high-quality, user-centric applications.`,
+  url: 'https://05-filter-app-small-javascript.netlify.app/',
+  github: 'https://github.com/Keerti-kumar-shakya/small-javascript-projects/tree/main/05-%20filter%20app',
+  projectName: 'Filter App'
+
+},
 ]
 
 
