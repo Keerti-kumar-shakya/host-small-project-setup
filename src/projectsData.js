@@ -10,6 +10,7 @@ import sImg_8 from './projects-images/08-menu-app.png';
 import sImg_9 from './projects-images/09-responsive-home-page.png';
 import sImg_10 from './projects-images/10-unsplash-images-app.png';
 import sImg_11 from './projects-images/11-filter-app.png';
+import sImg_12 from './projects-images/12-mobile-product-app.png';
 //import sImg_3 from './projects-images'
 
 import { nanoid } from 'nanoid';
@@ -185,6 +186,34 @@ export const smallProjectData = [
   projectName: 'Filter App'
 
 },
+
+// 12-project
+{
+  id: nanoid(),
+  category: 'react-redux',
+  img: sImg_12,
+  techUsed: 'reactjs, redux toolkit',
+  desc: `I have developed a Mobile Product Application using ReactJS, React-Redux, and Redux Toolkit. In this project, I have incorporated core concepts such as thunkAPI, immer, asynchronous functions, and API integration to ensure efficient state management and seamless user interactions.`,
+  url: 'https://01-small-react-redux-project-app.netlify.app/',
+
+  github: 'https://github.com/Keerti-kumar-shakya/small-react-redux-projects/tree/main/01%20-%20mobile-product-app',
+
+  projectName: 'mobile product app'
+
+}
+
+
 ]
 
+// {
+//   id: nanoid(),
+//   category: '',
+//   img: ,
+//   techUsed: '',
+//   desc: ``,
+//   url: '',
+//   github: '',
+//   projectName: ''
+
+// }
 
